@@ -1,0 +1,42 @@
+.blue-box {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background-color: #0ebfdd;
+  text-align: center;
+  color: #fff;
+}
+
+.blue-box__title {
+  margin-bottom: 60px;
+  font-size: 50px;
+}
+
+.blue-box__link {
+  display: inline-block;
+  margin-top: 90px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 10px;
+}
+
+.person {
+  display: inline-block;
+}
+
+.person__image {
+  border-radius: 50%;
+  width: 145px;
+  height: 145px;
+  margin-bottom: 8px;
+}
+
+.person__name {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.person__title {
+  font-style: italic;
+}
