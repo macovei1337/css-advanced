@@ -1,0 +1,108 @@
+.gradient-box {
+  width: 100%;
+  height: 300px;
+}
+
+.gradient-box--1 {
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.gradient-box--2 {
+  background: linear-gradient(to right, #23074d, #cc5333);
+}
+
+.gradient-box--3 {
+  background: linear-gradient(to right, #fffbd5, #b20a2c);
+}
+
+.gradient-box--4 {
+  background: linear-gradient(to right, #232526, #414345);
+}
+
+.gradient-box--5 {
+  background: linear-gradient(to right, #134e5e, #71b280);
+}
+
+.gradient-box--6 {
+  background: linear-gradient(to right, #2bc0e4, #eaecc6);
+}
+
+.gradient-box--7 {
+  background: linear-gradient(to right, #085078, #85d8ce);
+}
+
+.gradient-box--8 {
+  background: radial-gradient(circle, red, yellow, green);
+}
+
+.gradient-box--9 {
+  background: conic-gradient(red, yellow, green, blue, black);
+  border-radius: 50%;
+}
+
+.gradient-box--10 {
+  background: conic-gradient(
+    red 0deg,
+    red 90deg,
+    yellow 90deg,
+    yellow 180deg,
+    green 180deg,
+    green 270deg,
+    blue 270deg
+  );
+  border-radius: 50%;
+}
+
+.gradient-box--11 {
+  background: repeating-conic-gradient(red 10%, yellow 20%);
+  border-radius: 50%;
+}
+
+.gradient-box--12 {
+  background: repeating-conic-gradient(
+    red 0deg 10deg,
+    yellow 10deg 20deg,
+    blue 20deg 30deg
+  );
+  border-radius: 50%;
+}
+
+.gradient-box--13 {
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
+}
+
+.gradient-box--14 {
+  background: linear-gradient(to right, #76b852, #8dc26f);
+}
+
+.gradient-box--15 {
+  background: linear-gradient(to right, #673ab7, #512da8);
+}
+
+.gradient-box--16 {
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+}
+
+.gradient-box--17 {
+  background: linear-gradient(to right, #f46b45, #eea849);
+}
+
+.gradient-box--18 {
+  background: conic-gradient(
+      #fff 0.25turn,
+      #000 0.25turn 0.5turn,
+      #fff 0.5turn 0.75turn,
+      #000 0.75turn
+    )
+    top left / 25% 25% repeat;
+  border: 1px solid;
+}
+
+.gradient-box--19 {
+  background: conic-gradient(red 36deg, orange 36deg 170deg, yellow 170deg);
+  border-radius: 50%;
+}
+
+.gradient-box--20 {
+  background: conic-gradient(from 0deg at 0% 25%, blue, green, yellow 180deg);
+}
